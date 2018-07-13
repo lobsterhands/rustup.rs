@@ -80,7 +80,9 @@ $ rustup completions zsh > ~/.zfunc/_rustup
 ```
 
 *Note:* you may need to restart your shell in order for the changes to take
- effect.
+ effect. Alternatively, to avoid restarting your shell, you can `source` the file
+ you just created.
+ Example using Bash: `source /etc/bash_completion.d/rustup.bash-completion`.
 
 For `zsh`, you must then add the following line in your `~/.zshrc` before
 `compinit`:
